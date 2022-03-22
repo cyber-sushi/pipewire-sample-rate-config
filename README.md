@@ -1,2 +1,4 @@
 # pipewire-sample-rate-config
-A simple GUI Python script to change Pipewire's sample rate
+A simple GUI written in Python to change Pipewire's sample rate.
+
+Requires ``python`` and ``tk`` installed.
