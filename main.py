@@ -4,7 +4,7 @@ import tkinter as tk
 import subprocess
 
 
-class File(object):
+class Application(object):
     def __init__(self):
         self.SAMPLE_RATES = (44100, 48000, 88200, 96000)
         self.BUFFER_SIZES = (32, 64, 128, 256, 512, 1024)
@@ -53,4 +53,4 @@ class Window(tk.Tk):
 
 
 if __name__ == "__main__":
-    app = File()
+    app = Application()
